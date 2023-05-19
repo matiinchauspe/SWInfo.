@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-uses-react": 0,
+        "semi":"warn",
+        "max-len": ["error", { "code": 120, "ignoreStrings": true }],
+        "arrow-body-style": ["error", "as-needed"],
+        "react/self-closing-comp": ["error", { "component": true, "html": true }],
+        "indent": ["error", 2, { "SwitchCase": 1 }]
+    }
+}
