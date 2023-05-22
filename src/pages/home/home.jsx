@@ -7,8 +7,7 @@ import { useDebounce } from "@/hooks";
 import { Error } from "@/pages/error";
 
 import { LoadingSection } from "@/components";
-import { FilterResources } from "@/pages/home/components/filter-resources/filter-resources";
-import { List } from "./components";
+import { FilterResources, List } from "./components";
 
 const ITEMS_PER_PAGE = 10;
 

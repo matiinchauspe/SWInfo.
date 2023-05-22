@@ -84,8 +84,8 @@ const List = ({ data, pagination, totalPages }) => {
         pagination={pagination}
         className="max-w-screen-lg flex justify-center w-full gap-24 m-auto mt-5 py-5"
       >
-        <PaginationPrevious>Anterior</PaginationPrevious>
-        <PaginationNext>Siguiente</PaginationNext>
+        <PaginationPrevious>Previous</PaginationPrevious>
+        <PaginationNext>Next</PaginationNext>
       </PaginationRoot>
     </>
   );
